@@ -28,7 +28,7 @@
     <main
       class="w-11/12 p-4 bg-very-dark-blue-card rounded-lg md:w-2/4 lg:w-1/4"
     >
-      <div
+      <figure
         class="relative before:absolute before:block before:content-['')] hover:before:bg-icon-view before:bg-no-repeat before:bg-center before:left-0 before:right-0 before:bottom-0 before:top-0 before:z-10 after:absolute hover:after:block after:content-['')] after:left-0 after:right-0 after:bottom-0 after:top-0 after:rounded-md hover:after:bg-cyan-with-opacity hover:cursor-pointer"
       >
         <img
@@ -36,12 +36,13 @@
           alt="Equilibrium"
           class="block mb-6 rounded-md mx-auto"
         />
-      </div>
-      <h1
-        class="text-white text-xl font-bold mb-4 hover:text-cyan hover:cursor-pointer"
+      </figure>
+      <a
+        href="#"
+        class="text-white text-xl block font-bold mb-4 hover:text-cyan hover:cursor-pointer"
       >
         Equilibrium #3429
-      </h1>
+      </a>
       <p class="text-soft-blue mb-4">
         Our Equilibrium collection promotes balance and calm.
       </p>
@@ -49,11 +50,21 @@
         class="flex justify-between border-very-dark-blue border-b-2 mb-4 pb-4"
       >
         <div class="flex items-center gap-2">
-          <img src="./images/icon-ethereum.svg" alt="Ethereum" class="block" />
+          <img
+            src="./images/icon-ethereum.svg"
+            aria-hidden="true"
+            alt=""
+            class="block"
+          />
           <span class="text-cyan">0.041 ETH </span>
         </div>
         <div class="flex items-center gap-2">
-          <img src="./images/icon-clock.svg" alt="Clock" class="block" />
+          <img
+            src="./images/icon-clock.svg"
+            aria-hidden="true"
+            alt=""
+            class="block"
+          />
           <span class="text-soft-blue">3 days left</span>
         </div>
       </div>
@@ -65,9 +76,9 @@
         />
         <p class="text-soft-blue">
           Creation of
-          <span class="text-white hover:text-cyan hover:cursor-pointer"
+          <a href="#" class="text-white hover:text-cyan hover:cursor-pointer"
             >Jules Wyvern
-          </span>
+          </a>
         </p>
       </div>
     </main>
